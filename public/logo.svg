@@ -1,0 +1,24 @@
+<!-- public/logo.svg -->
+<svg
+  width="120"
+  height="40"
+  viewBox="0 0 120 40"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-label="Sanctions AML Logo"
+  role="img"
+>
+  <rect width="120" height="40" fill="#3B82F6" rx="6" />
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="white"
+    font-family="Arial, sans-serif"
+    font-weight="bold"
+    font-size="18"
+  >
+    Sanctions AML
+  </text>
+</svg>

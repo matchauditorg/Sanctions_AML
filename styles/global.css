@@ -1,0 +1,49 @@
+/* styles/globals.css */
+
+/* 
+  Purpose:
+  - This file contains the global CSS styles for the entire application.
+  - It imports TailwindCSS base, components, and utilities.
+  - You can add any global overrides or custom styles here.
+*/
+
+/* Import Tailwind's base styles (resets and base typography) */
+@tailwind base;
+
+/* Import Tailwind's component classes (buttons, forms, etc.) */
+@tailwind components;
+
+/* Import Tailwind's utility classes (spacing, colors, flex, grid, etc.) */
+@tailwind utilities;
+
+/* Custom global styles (optional) */
+
+/* Body styling to use system font and smooth rendering */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f9fafb; /* Light gray background */
+  color: #1f2937; /* Gray-900 from Tailwind */
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Link default styles */
+a {
+  color: #2563eb; /* Tailwind blue-600 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container utility for main app wrapper */
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
